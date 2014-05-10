@@ -18,8 +18,9 @@
 
 <body>
 
-    <div class="brand">Business Casual</div>
-    <div class="address-bar">The Plaza | 5483 Start Bootstrap Ave. | Beverly Hills, California 26892 | 555.519.2013</div>
+    <div class="brand">Louis Pinot</div>
+    <div class="address-bar">Passionate about innovation and all things tech, UX and design | Developer in training</div>
+    <div class="address-bar">From Paris, France | Looking for a job in San Francisco</div>
 
     <nav class="navbar navbar-default" role="navigation">
         <div class="container">
@@ -30,7 +31,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.html">Business Casual</a>
+                <a class="navbar-brand" href="index.html">Louis Pinot</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -40,9 +41,9 @@
                     </li>
                     <li><a href="work.html">Work</a>
                     </li>
-                    <li><a href="blog.html">Blog</a>
+                    <li><a href="#">Blog</a>
                     </li>
-                    <li><a href="contact.html">Contact</a>
+                    <li><a href="#">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -54,22 +55,39 @@
     <div class="container">
 
         <div class="row">
-            <div class="box">
-                <div class="col-lg-12">
+            <div class="box project-access-portal">
+                <div class="col-lg-12 container">
                     <hr>
-                    <h2 class="intro-text text-center">Build a website <strong>worth visiting</strong>
+                    <h2 class="intro-text text-center">Website presenting a house for rental
                     </h2>
                     <hr>
-                    <img class="img-responsive img-border img-left" src="img/intro-pic.jpg" alt="">
-                    <hr class="visible-xs">
-                    <p>The boxes used in this template are nested inbetween a normal Bootstrap row and the start of your column layout. The boxes will be full-width boxes, so if you want to make them smaller then you will need to customize.</p>
-                    <p>A huge thanks to <a href="http://join.deathtothestockphoto.com/" target="_blank">Death to the Stock Photo</a> for allowing us to use the beautiful photos that make this template really come to life. When using this template, make sure your photos are decent. Also make sure that the file size on your photos is kept to a minumum to keep load times to a minimum.</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc placerat diam quis nisl vestibulum dignissim. In hac habitasse platea dictumst. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+
+                    <div class="row"></div>
+                      <div class="col-sm-4 col-xs-12">
+                        <img class="img-responsive img-border img-left" src="site-sigean/images/terrasse-landing.jpg" alt="">
+                      </div>
+                      <div class="col-sm-8 col-xs-12">
+                        <hr class="visible-xs">
+                        <p>This project is curretnly in progress and private.</p>
+                        <p>Please enter your password to review the project</p>
+
+                        <form class="form-inline" id="sigeanForm" role="form">
+                          <div class="form-group">
+                            <label class="sr-only" for="password">Password</label>
+                            <input type="password" class="form-control" id="password" placeholder="Password">
+                          </div>
+                          <button type="submit" class="btn btn-default">Submit password</button>
+                        </form>
+                        <a href="site-sigean/index.html" class="btn btn-primary btn-lg disabled" role="button">View Project</a>
+                      </div>
+
+
+
                 </div>
             </div>
         </div>
 
-        <div class="row">
+        <div class="row" style="display:none;">
             <div class="box">
                 <div class="col-lg-12">
                     <hr>
@@ -96,14 +114,15 @@
     </footer>
 
     <!-- JavaScript -->
-    <script src="js/jquery-1.10.2.js"></script>
-    <script src="js/bootstrap.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
     <script>
     // Activates the Carousel
     $('.carousel').carousel({
         interval: 5000
     })
     </script>
+    <script src="js/access-validation.js"></script>
 
 </body>
 

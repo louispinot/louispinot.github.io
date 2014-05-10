@@ -1,12 +1,20 @@
 /*    MY OWN CSS     */
 
-.blog-articles { display: none;}
+.blog-articles {
+  display: none;
+}
 
+.address-bar {
+  padding: 0 0 28px;
+}
 
+.project-access-portal {
+  text-align: center;
+}
 
-
-
-
+.project-access-portal .btn {
+  margin: 1em;
+}
 
 
 
@@ -139,7 +147,6 @@ footer p {
   display: inherit;
   text-align: center;
   margin: 0;
-  padding: 0 0 40px;
   font-size: 1.25em;
   text-transform: uppercase;
   letter-spacing: 3px;
