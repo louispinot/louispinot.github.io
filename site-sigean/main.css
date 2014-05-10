@@ -1,0 +1,115 @@
+body {
+  background: url(images/proto-landing-back2.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.scaffold {
+margin-top: 60px;
+}
+
+#navigation {
+  padding-left: 0em;
+  padding-right: 0em;
+}
+
+/* /////////////////////////////////////*/
+/*     Page d'acceuil     */
+
+#landing-main {
+  background-color: #9e8170;
+  margin-bottom: 1em;
+}
+
+#landing-main img {
+/*  -webkit-filter: saturate(1.4);
+  -webkit-filter: brightness(1.4);
+  -moz-filter: saturate(1.4);
+  -moz-filter: brightness(1.4);
+  -ms-filter: saturate(1.4);
+  -ms-filter: brightness(1.4);
+  -o-filter: saturate(1.4);
+  -o-filter: brightness(1.4);*/
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+#landing-main p {
+  font-family: 'Tangerine', cursive;
+  font-weight: 700;
+  font-size: 40px;
+
+}
+.landing-side p {
+  margin-bottom :1em;
+  background-color: #f79885;
+}
+
+/* /////////////////////////////////////*/
+/*     Page Activités     */
+
+.activites-body {
+  background-color: #9e8170;
+  margin-bottom: 1em;
+/*  margin-left: 1em;
+  margin-right: 1em;*/
+}
+
+.page-title {
+  background-color: #f79885;
+  margin-bottom: 1em;
+}
+
+.article-image {
+margin: 0.5em;
+}
+
+/*//////////////////////////////////////*/
+/*      Navigation Bar      */
+/* /!\ ajouter couleur spé pour case active */
+
+.custom1 .nav {
+  background-color: #DC8077;
+}
+.custom1 {
+  background-color: #DC8077;
+  border: 1px solid #9e8170;
+}
+.custom1 .nav > li > a:hover {
+  background-color: #DC8077;
+  color: #6d4a36;
+  font-weight: bolder;
+}
+
+.custom1 .nav > li > a {
+  background-color: #DC8077;
+  color: #513424;
+}
+
+.custom1 .navbar-toggle {
+  background-color: #DC8077;
+  border: 1px solid #9e8170;
+
+}
+.custom1 .navbar-toggle:focus {
+  background-color: #DC8077;
+  border: 1px solid #9e8170;
+}
+
+/*//////////////////////////////////////*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
