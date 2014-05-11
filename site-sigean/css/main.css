@@ -51,15 +51,39 @@ margin-top: 60px;
 /*     Page Activités     */
 
 .activites-body {
-  background-color: #9e8170;
-  margin-bottom: 1em;
+  background-color: #90B0D3;
+  margin-bottom: 2em;
+  border: 4px solid #ffea32;
+  font-family: 'Playfair Display', serif;
 /*  margin-left: 1em;
   margin-right: 1em;*/
+  padding: 3em;
+  box-shadow: 5px 5px 15px;
+}
+
+.activites-body img {
+  margin-right: 2em;
+  margin-bottom: 1em;
+}
+
+.activites-body h2 {
+  color: #3a591c;
+  font-size: 35px;
+}
+
+.activites-body p {
+  color: #3a591c;
+  font-size: 20px;
 }
 
 .page-title {
-  background-color: #f79885;
+  background-color: #ffea32;
   margin-bottom: 1em;
+  text-align: center;
+  color: #6d4a36;
+  font-family: 'Playfair Display', serif;
+  font-size: 45px;
+  box-shadow: 5px 5px 15px;
 }
 
 .article-image {
@@ -71,30 +95,30 @@ margin: 0.5em;
 /* /!\ ajouter couleur spé pour case active */
 
 .custom1 .nav {
-  background-color: #DC8077;
+  background-color: #ffea32;
 }
 .custom1 {
-  background-color: #DC8077;
+  background-color: #ffea32;
   border: 1px solid #9e8170;
 }
 .custom1 .nav > li > a:hover {
-  background-color: #DC8077;
+  background-color: #ffea32;
   color: #6d4a36;
   font-weight: bolder;
 }
 
 .custom1 .nav > li > a {
-  background-color: #DC8077;
+  background-color: #ffea32;
   color: #513424;
 }
 
 .custom1 .navbar-toggle {
-  background-color: #DC8077;
+  background-color: #ffea32;
   border: 1px solid #9e8170;
 
 }
 .custom1 .navbar-toggle:focus {
-  background-color: #DC8077;
+  background-color: #ffea32;
   border: 1px solid #9e8170;
 }
 
